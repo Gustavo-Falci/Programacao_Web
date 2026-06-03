@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="interface">
+        <h2>Gerenciador de Produtos</h2>
+
+        <div class="formulario">
+            <input type="text" id="nomeProduto" placeholder="Nome do produto">
+            <input type="number" id="precoProduto" placeholder="Preço (R$)">
+            <select id="categoriaProduto">
+                <option value="Eletrônicos">Eletrônicos</option>
+                <option value="Roupas">Roupas</option>
+                <option value="Alimentos">Alimentos</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <button onclick="adicionarProduto()">Adicionar Produto</button>
+        </div>
+
+        <div class="controles">
+            <button onclick="filtrarEletronicos()" class="btn-filtro">Mostrar só eletrônicos</button>
+            <button onclick="limparContainer()" class="btn-limpar">Limpar</button>
+        </div>
+
+        <div id="container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

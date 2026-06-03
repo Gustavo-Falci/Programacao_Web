@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#app {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333333;
+}
+
+#progresso {
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+#btnIniciar, #btnReiniciar {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#btnIniciar:hover, #btnReiniciar:hover {
+  background-color: #0056b3;
+}
+
+.opcao {
+  background-color: #e9ecef;
+  color: #495057;
+  text-align: left;
+}
+
+.opcao:hover {
+  background-color: #dee2e6;
+}
+
+.correta {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.errada {
+  background-color: #dc3545 !important;
+  color: white !important;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Gerenciador de Alunos</h2>
+        <p>Clique no botão para processar as notas e gerar o relatório da turma.</p>
+        
+        <button onclick="gerenciarAlunos()">Gerar Relatório</button>
+
+        <div class="resultado">
+            <p id="linhaGeral"></p>
+            <h3>Alunos Aprovados:</h3>
+            <div id="listaAprovados"></div>
+            
+            <h3>Alunos Reprovados:</h3>
+            <div id="listaReprovados"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

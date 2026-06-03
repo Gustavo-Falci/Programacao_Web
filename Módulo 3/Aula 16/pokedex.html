@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="pokedex-app">
+        <h2>Pokédex</h2>
+
+        <div class="busca-container">
+            <input type="text" id="inputPokemon" placeholder="Nome ou número do Pokémon" value="1">
+            <button onclick="buscarPokemonPeloInput()">Buscar</button>
+        </div>
+
+        <div class="navegacao-container">
+            <button onclick="pokemonAnterior()">◀ Anterior</button>
+            <button onclick="proximoPokemon()">Próximo ▶</button>
+        </div>
+
+        <div id="pokedexContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

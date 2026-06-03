@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nome": "Brownie Tradicional", "preco": 8.00 },
+  { "id": 2, "nome": "Brownie de Nutella", "preco": 10.50 },
+  { "id": 3, "nome": "Brownie de Doce de Leite", "preco": 9.50 }
+]
